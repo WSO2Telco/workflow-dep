@@ -34,8 +34,7 @@
 
     <properties>
 	    <!-- WSO2.Telco versions -->
-        <com.wso2telco.dep.version>2.3.2-SNAPSHOT</com.wso2telco.dep.version>
-	    <com.wso2telco.core.version>2.3.1-SNAPSHOT</com.wso2telco.core.version>
+	 <com.wso2telco.core.version>2.3.1-SNAPSHOT</com.wso2telco.core.version>
 
         <log4j.version>1.2.13</log4j.version>
         <com.google.code.gson.version>2.3.1</com.google.code.gson.version>
@@ -118,37 +117,10 @@
 
 
     <modules>
-        <module>components/oneapi-validation</module>
-        <module>components/subscription-validator</module>
-        <!--module>components/publish-events-data</module-->
-        <!--module>components/data-publisher</module-->
-        <module>components/reporting-service</module>
-        <module>components/verification-handler</module>
-        <module>components/validator-handler</module>
-        <module>components/operator-service</module>
-        <module>components/mediator</module>
-        <!--module>components/publish-events/publish-events-data</module>
-          <module>components/publish-events/publish-events-extensions</module-->
-        <module>components/workflow/workflow-approval</module>
-		<module>components/workflow/workflow-user-manage</module>
+        <module>components/workflow-approval</module>
+	<module>components/workflow-user-manage</module>
         <module>components/workflow-extensions</module>
-        <module>components/workflow/workflow-service</module>
-        <module>components/server-startup-observer</module>
-        <module>components/webapps/blacklist-whitelist-service</module>
-        <module>components/webapps/aggregator-blacklist</module>
-        <module>components/webapps/operator-onboard</module>
-        <module>components/jaggery-apps/manage</module>
-        <module>components/jaggery-apps/publisher</module>
-        <module>components/jaggery-apps/sandbox</module>
-        <module>components/jaggery-apps/store</module>
-        <module>components/billing/billing-extension</module>
-        <module>components/billing/billing-service</module>
-        <module>components/nashorn-mediator</module>
-        <module>components/notifyevent-mediator</module>
-        <module>components/logging-extension</module>
-        <module>components/operator-onboarding</module>
-        <module>components/webapps/ratecard-service</module>
-		<module>components/webapps/quota-service</module>
+        <module>components/workflow-service</module>
         <module>features</module>
     </modules>
 
